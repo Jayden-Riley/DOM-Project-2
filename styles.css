@@ -1,0 +1,30 @@
+/* Center the content and add spacing */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* Style the color box with fixed size and a default color */
+#color-box {
+    width: 200px;
+    height: 200px;
+    background-color: #cccccc; /* Default color */
+    margin: 20px 0;
+}
+
+/* Style the button to make it appealing */
+#change-color-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#change-color-btn:hover {
+    background-color: #0056b3;
+}
